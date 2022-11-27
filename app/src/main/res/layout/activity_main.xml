@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".MainActivity">
+
+    
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/Title"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginTop="50dp" />
+        
+        <ImageView
+            android:id="@+id/QRCode"
+            android:layout_width="200dp"
+            android:layout_heightd="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_launcher_background"/>
+        
+        <EditText
+            android:id="@+id/Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10dp"
+            android:hint="@string/Text"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:textColorHint="#000"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:text="@string/Genera"
+            android:layout_width="250dp"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="Generar"
+            android:padding="15dp"/>
+
+        <Button
+            android:id="@+id/qr"
+            android:text="@string/Lector"
+            android:layout_width="250dp"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="LectorQR"
+            android:padding="15dp"/>
+
+        <TextView
+            android:id="@+id/TextQR"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="@string/TextQR"
+            android:textColor="#000" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

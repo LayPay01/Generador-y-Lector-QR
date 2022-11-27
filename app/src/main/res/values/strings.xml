@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Practica QR</string>
+    <string name="Title">Generador y Lector de QR</string>
+    <string name="Text">Ingrese cualquier texto</string>
+    <string name="Genera">Generar Código QR</string>
+    <string name="Lector">Lector QR</string>
+    <string name="TextQR"> -- </string>
+</resources>
